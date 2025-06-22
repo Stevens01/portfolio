@@ -28,4 +28,5 @@ RUN composer install --no-dev --optimize-autoloader
 
 # Donner les permissions
 RUN chown -R www-data:www-data /var/www/storage /var/www/bootstrap/cache
-
+# Exposer le port HTTP
+EXPOSE 3000
