@@ -1,0 +1,25 @@
+services:
+  - type: web
+    name: portfolio
+    env: docker
+    plan: free
+    branch: main 
+    repo: https://github.com/Stevens01/portfolio.git
+    dockerfilePath: Dockerfile
+    envVars:
+      - key: APP_ENV
+        value: production
+      - key: APP_KEY
+        value: base64:xCCb78EZYr+04j6wZjNX6IDNzJ/8jOfLRLItGT9ym7Q= 
+      - key: APP_DEBUG
+        value: false
+      - key: DB_CONNECTION
+        value: mysql
+      - key: DB_HOST
+        value: 127.0.0.1
+      - key: DB_DATABASE
+        value: laravel
+      - key: DB_USERNAME
+        value: root
+      - key: DB_PASSWORD
+        value: 
