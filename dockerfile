@@ -28,7 +28,12 @@ RUN composer install --no-dev --optimize-autoloader
 
 # Donner les permissions
 RUN chown -R www-data:www-data /var/www/storage /var/www/bootstrap/cache
+
+# Créer le lien symbolique de storage vers public
+RUN php artisan storage:link
+
 # Exposer le port HTTP
 EXPOSE 3000
+
 #  Lancer le serveur Laravel
 CMD ["php", "artisan", "serve", "--host=0.0.0.0", "--port=3000"]
