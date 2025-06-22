@@ -30,3 +30,5 @@ RUN composer install --no-dev --optimize-autoloader
 RUN chown -R www-data:www-data /var/www/storage /var/www/bootstrap/cache
 # Exposer le port HTTP
 EXPOSE 3000
+#  Lancer le serveur Laravel
+CMD ["php", "artisan", "serve", "--host=0.0.0.0", "--port=3000"]
