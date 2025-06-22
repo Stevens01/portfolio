@@ -7,7 +7,7 @@
                 <!-- Project 1 -->
                 <div class="project-card bg-white rounded-lg overflow-hidden shadow-md transition duration-300">
                     <div class="relative overflow-hidden h-48">
-                        <img src="{{ asset('docs/rcc1.PNG') }}" alt="Projet Laravel" class="w-full h-full object-cover">
+                        <img src="{{ asset('storage/docs/rcc1.PNG') }}" alt="Projet Laravel" class="w-full h-full object-cover">
                         <div class="absolute inset-0 bg-indigo-600 opacity-0 hover:opacity-90 flex items-center justify-center transition duration-300">
                             <a href="#" class="text-white font-medium px-4 py-2 border border-white rounded hover:bg-white hover:text-indigo-600 transition duration-300">Voir le projet</a>
                         </div>
@@ -26,7 +26,7 @@
                 <!-- Project 2 -->
                 <div class="project-card bg-white rounded-lg overflow-hidden shadow-md transition duration-300">
                     <div class="relative overflow-hidden h-48">
-                        <img src=" {{ asset('docs/rcc2.PNG') }} " alt="Projet Laravel" class="w-full h-full object-cover">
+                        <img src=" {{ asset('storage/docs/rcc2.PNG') }} " alt="Projet Laravel" class="w-full h-full object-cover">
                         <div class="absolute inset-0 bg-indigo-600 opacity-0 hover:opacity-90 flex items-center justify-center transition duration-300">
                             <a href="#" class="text-white font-medium px-4 py-2 border border-white rounded hover:bg-white hover:text-indigo-600 transition duration-300">Voir le projet</a>
                         </div>
@@ -46,7 +46,7 @@
                 <!-- Project 3 -->
                 <div class="project-card bg-white rounded-lg overflow-hidden shadow-md transition duration-300">
                     <div class="relative overflow-hidden h-48">
-                        <img src=" {{ asset('docs/rcc3.PNG') }} " alt="Projet Laravel" class="w-full h-full object-cover">
+                        <img src=" {{ asset('storage/docs/rcc3.PNG') }} " alt="Projet Laravel" class="w-full h-full object-cover">
                         <div class="absolute inset-0 bg-indigo-600 opacity-0 hover:opacity-90 flex items-center justify-center transition duration-300">
                             <a href="#" class="text-white font-medium px-4 py-2 border border-white rounded hover:bg-white hover:text-indigo-600 transition duration-300">Voir le projet</a>
                         </div>
